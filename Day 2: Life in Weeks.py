@@ -1,5 +1,9 @@
-age = input()
+print('Welcome to the "Weeks left Alive" Calculator!')
 
-x = (90 - int(age)) * 52
+name = input("What is your name? ")
 
-print(f"You have {x} weeks left.")
+age = int(input(f"\nHello, {name}. How old are you? "))
+
+x = (90 - age) * 52
+
+print(f"\nYou have {x} weeks left.")
