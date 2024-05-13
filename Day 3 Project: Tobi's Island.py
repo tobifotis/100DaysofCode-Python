@@ -20,18 +20,18 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
 ''')
-print("Welcome to Treasure Island.")
+print("Welcome to Tobi's Island!")
 print("Your mission is to find the \"Vibranium\".\n")
-choice1 = input('You are at a cross road, Where do you want to go? Type "left" or "right" \n').lower()
+choice1 = input('You are at a cross road, Where do you want to go? "left" or "right" \n').lower()
 
 if choice1 == "left":
-  choice2 = input('\nYou find yourself in front of a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
+  choice2 = input('\nYou find yourself in front of a lake. Wakanda island is in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
   if choice2 == "wait":
     choice3 = input('\nYou arrive at Wakanda island unharmed. There is a house with 3 doors. One red, one yellow, and one blue. Which colour do you choose? \n').lower()
     if choice3 == "red":
       print("You got burned by Fire. Game Over!")
     elif choice3 == "blue":
-      print("You got eaten by beasts. Game Over!")
+      print("You have entered a room full of beasts. Game Over!")
     elif choice3 == "yellow":
       print("\nYou have found the Vibranium. You Win!")
     else: 
