@@ -4,7 +4,7 @@ import random
 print("Welcome to the Number Guessing Game!")
 print("I am thinking of a number between 1 and 100.\n")
 rand_num = random.randint(1, 101)
-print(f"The correct answer is {rand_num}")
+# print(f"The correct answer is {rand_num}")
 difficulty = input("\nChoose a difficulty. Type 'easy' or 'Hard': ").lower()
 
 def num_lives(difficulty):
