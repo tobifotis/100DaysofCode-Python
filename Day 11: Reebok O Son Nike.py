@@ -1,3 +1,4 @@
+from replit import clear
 ############### Reebok O Son Nike Project #####################
 logo3 = """
 
@@ -14,4 +15,18 @@ logo3 = """
 print(logo3)
 
 print("Welcome to Reebok O Son Nike \n")
-print("Do you want to play as Reebok or Nike? ")
+
+finished = False
+while not finished:
+  choice = input("Do you want to play as Reebok or Nike? ").lower()
+  if choice == "reebok":
+    clear()
+    print("\nWelcome! You are 'REEBOK', Opponent is 'NIKE'\n")
+    finished = True
+  elif choice == "nike":
+    clear()
+    print("\nWelcome! You are 'NIKE', Opponent is 'REEBOK'\n")
+    finished = True
+  else:
+    clear()
+    print("\nInvalid Choice! Type 'REEBOK' or 'NIKE'\n")
